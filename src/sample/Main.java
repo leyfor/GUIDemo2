@@ -27,6 +27,7 @@ public class Main extends Application  {
        // button = new Button("Click me");
          button = new Button();
          button.setText("Click me");
+         // Lamda expression
          button.setOnAction(e -> System.out.println("Hey now brown cow"));
 
         StackPane layout = new StackPane();
